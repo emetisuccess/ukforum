@@ -27,8 +27,8 @@
     </div>
     <div class="px-4 py-3 w-full">
      <form action="#" class="flex justify-center space-x-2">
-      <input type="search" class="px-2 py-[3px] w-96 rounded-full" name="search" />
-      <input type="submit" class="bg-blue-400 px-3 rounded-full" value="Search" />
+      <input type="search" class="px-2 py-[3px] w-96 focus:outline-none rounded-full" name="search" />
+      <input type="submit" class="bg-blue-400 px-3 rounded-full text-white font-bold" value="Search" />
      </form>
     </div>
    </div>
@@ -131,15 +131,26 @@
        &raquo;&nbsp;<a href="#test" class="text-blue-900 font-bold">Lorem ipsum dolor sit amet consectetur.</a>&nbsp;&laquo;
       </p>
      </div>
-     <div class="bg-blue-200 w-full border border-bottom-gray-600 py-1">
-      <h2 class="text-center text-xl">Pagination</h2>
+     <div class="bg-blue-200 w-full border border-bottom-gray-600 py-1 mx-auto">
+      <ul class="flex justify-center items-center space-x-2">
+       <li class="rounded-full p-1"><a href="#1">1</a></li>
+       <li class="rounded-full p-1"><a href="#2">2</a></li>
+       <li class="rounded-full p-1"><a href="#3">3</a></li>
+       <li class="bg-sky-300 rounded-full p-1"><a href="#4">4</a></li>
+       <li class="rounded-full p-1"><a href="#5">5</a></li>
+      </ul>
      </div>
     </div>
    </div>
   </section>
   <section id="footer">
-   <div class="container mx-auto max-w-[1020px] border border-gray-300 mt-2 shadow py-2">
-    <h3 class="text-center text-xl">Hello Footer</h3>
+   <div class="container mx-auto max-w-[1020px] border border-gray-300 mt-2 shadow p-2 py-6 bg-blue-100">
+    <div class="flex flex-col mx-auto justify-center items-center">
+     <form action="#" class="flex justify-center space-x-2">
+      <input type="search" class="px-2 py-[3px] w-96 border focus:outline-none border-gray-800 rounded-full" name="search" />
+      <input type="submit" class="bg-blue-400 px-3 rounded-full text-white font-bold" value="Search" />
+     </form>
+    </div>
    </div>
   </section>
  </body>
