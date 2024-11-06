@@ -35,48 +35,26 @@
   </nav>
 
   <section id="login" class="my-3">
-   <div class="container mx-auto border border-gray-200 overflow-hidden shadow-md mt-1 max-w-[1020px]">
+   <div class="container mx-auto border border-gray overflow-hidden shadow-md mt-1 max-w-[1020px]">
     <div class="flex flex-col justify-center items-center">
-     <div class="bg-blue-100 w-full text-center">
-      <h3 class="p-3 font-bold text-xl">Login with Username</h3>
-     </div>
-     <form action="" class="flex flex-col justify-center my-6 space-y-4 border-2 border-gray rounded-sm p-5">
+     <form action="" class="flex flex-col justify-center my-6 space-y-4 p-5 w-full">
       <div class="flex flex-col">
-       <label for="Username" class="text-md">Username:</label>
+       <label for="Username" class="text-md">Subject:</label>
        <input type="text" class="py-1 px-3 rounded-xl border border-black focus:outline-none" placeholder="Enter Username" />
       </div>
       <div class="flex flex-col">
-       <label for="password" class="text-md">Password:</label>
-       <input type="password" class="py-1 px-3 rounded-xl border border-black focus:outline-none" placeholder="Enter Password" />
+       <label for="message" class="text-md">Message:</label>
+       <textarea name="" rows="10" cols="10" id="" class="py-1 px-3 rounded-xl border border-black focus:outline-none"></textarea>
+       <!-- <input type="password" class="py-1 px-3 rounded-xl border border-black focus:outline-none" placeholder="Enter Password" /> -->
       </div>
       <!-- <div> -->
-      <input type="submit" class="bg-blue-400 hover:bg-blue-300 text-white p-2 rounded-xl cursor-pointer" value="Submit" />
+      <buttom
+       type="submit"
+       class="bg-blue-400 d-block w-24 text-center hover:bg-blue-300 text-white p-2 rounded-xl cursor-pointer"
+       >Submit</buttom
+      >
       <!-- </div> -->
      </form>
-    </div>
-   </div>
-  </section>
-
-  <section id="reset_password" class="my-3">
-   <div class="container mx-auto border border-gray-200 overflow-hidden shadow-md mt-1 max-w-[1020px]">
-    <div class="flex flex-col justify-center items-center">
-     <div class="bg-blue-100 w-full text-center">
-      <h3 class="p-3 font-bold text-xl">Reset Your Password</h3>
-     </div>
-     <div class="px-4 py-3 w-full">
-      <p class="mb-6 text-center">
-       Please enter your email address and a link allowing you to reset your password will be emailed to you.
-      </p>
-      <form action="#" class="flex justify-center w-full px-6">
-       <input
-        type="Email"
-        class="px-2 py-[3px] max-w-96 border-2 mr-3 border-black focus:outline-none rounded-full"
-        name="email"
-        placeholder="Enter Email"
-       />
-       <input type="submit" class="bg-blue-400 px-3 py-[3px] cursor-pointer rounded-full text-white font-bold" value="Submit" />
-      </form>
-     </div>
     </div>
    </div>
   </section>
