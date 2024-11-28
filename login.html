@@ -1,99 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/main.css" />
-  <title>Unified Forum</title>
- </head>
- <body>
-  <nav
-   class="container relative mx-auto p-2 px-4 bg-blue-100 border border-gray-200 overflow-hidden shadow-sm mt-1 max-w-[1020px]"
-  >
-   <div class="flex flex-col justify-between items-center space-y-2">
-    <div class="pt-1 min-w-sm">
-     <a href="#home">
-      <img src="/img/unifiedImage.png" alt="" class="max-w-[200px]" />
-     </a>
-    </div>
-    <div class="text-center">
-     <span class="mx-auto"
-      >Welcome, Guest: <a href="#register">Register On Unified Publisher</a>/ <a href="#login">LOGIN!</a>/
-      <a href="#trending">Trending</a>/ <a href="#recent">Recent</a>/ <a href="#new">New</a>
-     </span>
-    </div>
-    <div class="text-center">
-     <span class="mx-auto">Stats: 2,394,4334 members, 7,992,666 topics. Date: Sunday, 03 November 2024 at 01:11 PM </span>
-    </div>
-    <div class="px-4 py-3 w-full">
-     <form action="#" class="flex justify-center space-x-2">
-      <input type="search" class="px-2 py-[3px] w-96 focus:outline-none rounded-full" name="search" />
-      <input type="submit" class="bg-blue-400 px-3 rounded-full text-white font-bold" value="Search" />
-     </form>
-    </div>
-   </div>
-  </nav>
 
-  <section id="login" class="my-3">
-   <div class="container mx-auto border border-gray-200 overflow-hidden shadow-md mt-1 max-w-[1020px]">
-    <div class="flex flex-col justify-center items-center">
-     <div class="bg-blue-100 w-full text-center">
-      <h3 class="p-3 font-bold text-xl">Login with Username</h3>
-     </div>
-     <form action="" class="flex flex-col justify-center my-6 space-y-4 border-2 border-gray rounded-sm p-5">
-      <div class="flex flex-col">
-       <label for="Username" class="text-md">Username:</label>
-       <input type="text" class="py-1 px-3 rounded-xl border border-black focus:outline-none" placeholder="Enter Username" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Unified Forum</title>
+  </head>
+
+  <body>
+    <nav
+      class="container relative mx-auto p-2 px-4 bg-blue-100 border border-gray-200 overflow-hidden shadow-sm mt-1 max-w-[1020px]">
+      <div class="flex flex-col justify-between items-center">
+        <div class="min-w-sm">
+          <a href="#home" class="text-3xl">
+            Logo
+          </a>
+        </div>
+        <div class="text-center">
+          <span class="mx-auto">Welcome, Guest: <a href="register.html">Register On Unified Publisher</a>/ <a
+              href="login.html">LOGIN!</a>/
+            <a href="#trending">Trending</a>/ <a href="#recent">Recent</a>/ <a href="#new">New</a>
+            <a href="create.html">Create Post</a>
+          </span>
+        </div>
+        <div class="text-center">
+          <span class="mx-auto">Stats: 2,394,4334 members, 7,992,666 topics. Date: Sunday, 03 November 2024 at 01:11 PM
+          </span>
+        </div>
+        <div class="w-full">
+          <form action="#" class="flex justify-center space-x-2">
+            <input type="search" class="px-2 py-[3px] w-96 focus:outline-none rounded-full" name="search" />
+            <input type="submit" class="bg-blue-400 px-3 rounded-full text-white font-bold" value="Search" />
+          </form>
+        </div>
       </div>
-      <div class="flex flex-col">
-       <label for="password" class="text-md">Password:</label>
-       <input type="password" class="py-1 px-3 rounded-xl border border-black focus:outline-none" placeholder="Enter Password" />
+    </nav>
+
+    <section id="login" class="my-3">
+      <div class="container mx-auto border border-gray-200 overflow-hidden shadow-md mt-1 max-w-[1020px]">
+        <div class="flex flex-col justify-center items-center">
+          <div class="bg-blue-100 w-full text-center">
+            <h3 class="p-3 font-bold text-xl">Login with Username</h3>
+          </div>
+          <form action="" class="flex flex-col justify-center my-6 space-y-4 border-2 border-gray rounded-sm p-5">
+            <div class="flex flex-col">
+              <label for="Username" class="text-md">Username:</label>
+              <input type="text" class="py-1 px-3 rounded-xl border border-black focus:outline-none"
+                placeholder="Enter Username" />
+            </div>
+            <div class="flex flex-col">
+              <label for="password" class="text-md">Password:</label>
+              <input type="password" class="py-1 px-3 rounded-xl border border-black focus:outline-none"
+                placeholder="Enter Password" />
+            </div>
+            <!-- <div> -->
+            <input type="submit" class="bg-blue-400 hover:bg-blue-300 text-white p-2 rounded-xl cursor-pointer"
+              value="Submit" />
+            <!-- </div> -->
+          </form>
+        </div>
       </div>
-      <!-- <div> -->
-      <input type="submit" class="bg-blue-400 hover:bg-blue-300 text-white p-2 rounded-xl cursor-pointer" value="Submit" />
-      <!-- </div> -->
-     </form>
-    </div>
-   </div>
-  </section>
+    </section>
 
-  <section id="reset_password" class="my-3">
-   <div class="container mx-auto border border-gray-200 overflow-hidden shadow-md mt-1 max-w-[1020px]">
-    <div class="flex flex-col justify-center items-center">
-     <div class="bg-blue-100 w-full text-center">
-      <h3 class="p-3 font-bold text-xl">Reset Your Password</h3>
-     </div>
-     <div class="px-4 py-3 w-full">
-      <p class="mb-6 text-center">
-       Please enter your email address and a link allowing you to reset your password will be emailed to you.
-      </p>
-      <form action="#" class="flex justify-center w-full px-6">
-       <input
-        type="Email"
-        class="px-2 py-[3px] max-w-96 border-2 mr-3 border-black focus:outline-none rounded-full"
-        name="email"
-        placeholder="Enter Email"
-       />
-       <input type="submit" class="bg-blue-400 px-3 py-[3px] cursor-pointer rounded-full text-white font-bold" value="Submit" />
-      </form>
-     </div>
-    </div>
-   </div>
-  </section>
+    <section id="reset_password" class="my-3">
+      <div class="container mx-auto border border-gray-200 overflow-hidden shadow-md mt-1 max-w-[1020px]">
+        <div class="flex flex-col justify-center items-center">
+          <div class="bg-blue-100 w-full text-center">
+            <h3 class="p-3 font-bold text-xl">Reset Your Password</h3>
+          </div>
+          <div class="px-4 py-3 w-full">
+            <p class="mb-6 text-center">
+              Please enter your email address and a link allowing you to reset your password will be emailed to you.
+            </p>
+            <form action="#" class="flex justify-center w-full px-6">
+              <input type="Email"
+                class="px-2 py-[3px] max-w-96 border-2 mr-3 border-black focus:outline-none rounded-full" name="email"
+                placeholder="Enter Email" />
+              <input type="submit" class="bg-blue-400 px-3 py-[3px] cursor-pointer rounded-full text-white font-bold"
+                value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="footer">
-   <div
-    class="container relative mx-auto p-2 px-4 bg-blue-100 border border-gray-200 overflow-hidden shadow-sm mt-1 max-w-[1020px]"
-   >
-    <div class="flex flex-col justify-between items-center space-y-2">
-     <div class="px-4 py-3 w-full">
-      <form action="#" class="flex justify-center space-x-2">
-       <input type="search" class="px-2 py-[3px] w-96 focus:outline-none rounded-full" name="search" />
-       <input type="submit" class="bg-blue-400 px-3 rounded-full text-white font-bold" value="Search" />
-      </form>
-     </div>
-    </div>
-   </div>
-  </section>
- </body>
+    <section id="footer">
+      <div
+        class="container relative mx-auto p-2 px-4 bg-blue-100 border border-gray-200 overflow-hidden shadow-sm mt-1 max-w-[1020px]">
+        <div class="flex flex-col justify-between items-center space-y-2">
+          <div class="px-4 py-3 w-full">
+            <form action="#" class="flex justify-center space-x-2">
+              <input type="search" class="px-2 py-[3px] w-96 focus:outline-none rounded-full" name="search" />
+              <input type="submit" class="bg-blue-400 px-3 rounded-full text-white font-bold" value="Search" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
 </html>
