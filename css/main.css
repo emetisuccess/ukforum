@@ -646,6 +646,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .w-24 {
   width: 6rem;
 }
@@ -956,4 +960,20 @@ video {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+@media (min-width: 450px) {
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
 }
