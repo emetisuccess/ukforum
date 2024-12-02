@@ -893,11 +893,6 @@ video {
   line-height: 2.25rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -906,34 +901,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[3px\] {
-  font-size: 3px;
-}
-
-.text-\[1px\] {
-  font-size: 1px;
-}
-
-.text-xs\/\[17px\] {
-  font-size: 0.75rem;
-  line-height: 17px;
-}
-
-.text-xs\/\[0\.2px\] {
-  font-size: 0.75rem;
-  line-height: 0.2px;
-}
-
-.text-xs\/\[0\.6px\] {
-  font-size: 0.75rem;
-  line-height: 0.6px;
-}
-
-.text-xs\/\[0\.1px\] {
-  font-size: 0.75rem;
-  line-height: 0.1px;
 }
 
 .font-bold {
@@ -985,11 +952,6 @@ video {
 .hover\:text-base:hover {
   font-size: 1rem;
   line-height: 1.5rem;
-}
-
-.hover\:text-xs:hover {
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 .hover\:font-bold:hover {
